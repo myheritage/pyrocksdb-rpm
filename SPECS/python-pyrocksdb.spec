@@ -8,7 +8,7 @@
 
 Name:           python-pyrocksdb
 Version:        0.5 
-Release:        1%{?dist}
+Release:        %{?release}%{!?release:1}%{?dist}
 Summary: Python bindings for RocksDB       
 
 License: BSD        
