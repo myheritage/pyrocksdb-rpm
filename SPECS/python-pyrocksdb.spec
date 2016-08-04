@@ -7,7 +7,7 @@
 %define pkg_name %{gh_project}
 
 Name:           python-pyrocksdb
-Version:        0.5 
+Version:        0.6
 Release:        %{?release}%{!?release:1}%{?dist}
 Summary: Python bindings for RocksDB       
 
